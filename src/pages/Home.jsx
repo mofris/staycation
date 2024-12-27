@@ -1,11 +1,11 @@
-import Navbar from '@/components/navbar/Navbar'
+import Navbar from '@/components/Navbar'
 import Buttom from '@/elements/buttom/Buttom'
 
 export default function Home() {
     return (
         <>
             <Navbar />
-            <Buttom style="bg-blue-600 hover:bg-blue-800 text-white font-medium py-3 px-6 rounded-lg shadow-md transition duration-300">Show me now</Buttom>
+            <Buttom style="bg-blue-500 text-white font-medium py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-500">Show me now</Buttom>
         </>
     )
 }

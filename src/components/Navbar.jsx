@@ -1,3 +1,5 @@
+import Buttom from '@/elements/buttom/Buttom'
+
 export default function Navbar() {
     return (
         <div className="bg-gray-100 shadow-md">
@@ -7,10 +9,11 @@ export default function Navbar() {
                     <a href="#" className="text-blue-600 text-2xl font-bold hover:text-gray-900 transition-all duration-500 hover:-translate-y-1">Stay<span className="text-gray-900 hover:text-blue-600 transition-all duration-500">cation.</span></a>
 
                     <nav className="flex space-x-6">
-                        <a href="#" className="font-medium text-blue-600">Home</a>
-                        <a href="#" className="text-gray-600 hover:text-blue-600">Browse by</a>
-                        <a href="#" className="text-gray-600 hover:text-blue-600">Stories</a>
-                        <a href="#" className="text-gray-600 hover:text-blue-600">Agents</a>
+                        <a href="#" className="font-semibold text-blue-600 py-0.5">Home</a>
+                        <a href="#" className="text-gray-600 hover:text-blue-600 py-0.5">Browse by</a>
+                        <a href="#" className="text-gray-600 hover:text-blue-600 py-0.5">Stories</a>
+                        <a href="#" className="text-gray-600 hover:text-blue-600 py-0.5">Agents</a>
+                        <Buttom style="bg-blue-500 text-white py-0.3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-500">Login</Buttom>
                     </nav>
                 </div>
             </div>
