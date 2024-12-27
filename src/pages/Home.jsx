@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar'
-import Buttom from '@/elements/buttom/Buttom'
+import Buttom from '@/elements/Buttom'
 
 export default function Home() {
     return (
